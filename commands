@@ -1,1 +1,13 @@
 ========================
+
+====composição
+
+x=10
+"João tem %d anos" %x
+%d inteiros
+%s strings
+%f floats
+
+====comandos
+
+input("Difite um numero:") - entrada de dados
