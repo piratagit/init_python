@@ -11,3 +11,8 @@ x=10
 ====comandos
 
 input("Difite um numero:") - entrada de dados
+del L[1] = delete elemento da lista
+[] = lista vazia
+fila.pop(0) = retira o primeiro elemento da lista e retorna o seu valor
+print(x, end = " ") = não pula a linha apos a expressão
+enumerate(L) = retorna um par de valores (tupla), com o indice e o valor

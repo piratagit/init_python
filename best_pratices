@@ -1,3 +1,7 @@
 4 espaços são uma identação
 
 para copiar uma lista V = L[:]
+
+Em uma fila, a inserção é sempre no fim e a inclusão sempre no inicioi FIFO first in first out
+
+Em uma pilha a inserção é no final e o elemento retirado é sempre o ultimo LIFO last in first out
