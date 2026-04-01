@@ -1,4 +1,15 @@
-========================
+
+=====conceitos
+
+4 espaços são uma identação
+
+para copiar uma lista V = L[:]
+
+Em uma fila, a inserção é sempre no fim e a inclusão sempre no inicioi FIFO first in first out
+
+Em uma pilha a inserção é no final e o elemento retirado é sempre o ultimo LIFO last in first out
+
+Um dicionario é parecido com uma lista, mas tendo chave:valor
 
 ====composição
 
@@ -16,3 +27,13 @@ del L[1] = delete elemento da lista
 fila.pop(0) = retira o primeiro elemento da lista e retorna o seu valor
 print(x, end = " ") = não pula a linha apos a expressão
 enumerate(L) = retorna um par de valores (tupla), com o indice e o valor
+L.sort() - ordena lista
+x = sorted(L) - cria copia ordenada de uma lista
+{} = dicionario vazio
+para acessar um item do dicionario > x = tabela["Alface"]
+tabela["Cebola"] = 1.20 - adiciona uma nova chave ao dicionario
+print(tabela.keys())
+dict_keys(['alface', 'tomate'])
+print(dict_values())
+dict_values([0.25, 1.12, 4,50)
+del(tabela['tomate']) - deleta uma chave do dicionario
