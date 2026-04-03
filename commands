@@ -11,6 +11,13 @@ Em uma pilha a inserção é no final e o elemento retirado é sempre o ultimo L
 
 Um dicionario é parecido com uma lista, mas tendo chave:valor
 
+lista = [0,10,2]
+dicionario = {"chave": "valor"}
+tupla = (0,10,2)
+conjunto = set() > operações de união, intesecção, diferença etc, nao repete elementos e nao mantem ordem
+
+criar uma tupla = a, b, c se chama empacotamento
+
 ====composição
 
 x=10
@@ -21,7 +28,12 @@ x=10
 
 ====comandos
 
+== geral
+
 input("Difite um numero:") - entrada de dados
+
+==lista
+
 del L[1] = delete elemento da lista
 [] = lista vazia
 fila.pop(0) = retira o primeiro elemento da lista e retorna o seu valor
@@ -29,6 +41,9 @@ print(x, end = " ") = não pula a linha apos a expressão
 enumerate(L) = retorna um par de valores (tupla), com o indice e o valor
 L.sort() - ordena lista
 x = sorted(L) - cria copia ordenada de uma lista
+
+== dicionario
+
 {} = dicionario vazio
 para acessar um item do dicionario > x = tabela["Alface"]
 tabela["Cebola"] = 1.20 - adiciona uma nova chave ao dicionario
@@ -37,3 +52,44 @@ dict_keys(['alface', 'tomate'])
 print(dict_values())
 dict_values([0.25, 1.12, 4,50)
 del(tabela['tomate']) - deleta uma chave do dicionario
+d.get(letra, 0) + 1 > tenta opter a chave procurada, se nao encontra retorna o parametro (0) ou None, s encontra retorna o valor 
+
+=== tuplas
+
+a, b = 10, 20 > cria 2 tuplas
+a, b = b, a > inverte os valores sem necessitar de uma variavel
+x = tuple(L) > cria uma tupla atravez de uma lista
+
+=== conjunto
+
+a = {1, 2, 3} > cria conjunto
+a.add(0) > adiciona elementos
+a | b > ou a.union(b) junta conjuntos (union)
+a & b ou a.intersection(b) - intersecção, quais elementos estão nos 2 conjuntos
+a - b ou a.difference(b) - diferença
+a ^ b ou a.symmetric_difference(b) elementos que não são comuns nos conjuntos
+outras operações a > b, a >= b, a < b, a == b, a != b etc
+
+=== strings
+
+S = "alo mundo"
+strings são imutaveis, para altera-las deve transformalas em uma lista list(S)
+join(L para transformar a lista em uma string
+palavra.sttartwith("string") ou palavra.endwith("string") retorrna True ou False, sendo case sensitive
+palavra.lower() ou palavra.upper() miniscula ou maiuscula
+s = "Joao da silva", "Joao" in s = True, ou com 'not in'
+s.count("a") = 3
+s.find("da",4) = 5 > especifica começando do quarto elemenmto
+s.rfind("si", 0, 5) = 4 > especificando começar do 5° elemento de tras pra frente
+index() e rindex() funcionam igual o find() e rfind(), porem retornando um ValueError caso não encontre
+s = "tigre", s.center(10, ".") > ..tigre...
+s.ljust(10."-") > 'tigre-----'
+s.rjust(10."-") > '-----tigre'
+f"{s:^10}" > '  tigre   '
+f"{s:<10}" > 'tigre     '
+f"{s:>10}" > '    tigre'
+s = "um, dois, tres"
+s.split(",") = ["um"," dois"," tres"]
+m = "uma linha /noutra linha"
+m.splitlines() > ["uma linha","outra linha"]
+
