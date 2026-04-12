@@ -92,4 +92,15 @@ s = "um, dois, tres"
 s.split(",") = ["um"," dois"," tres"]
 m = "uma linha /noutra linha"
 m.splitlines() > ["uma linha","outra linha"]
+m.replace("linha","coluna", 2) > substitui valores, o terceiro parametro quantas vezes realiza, se passas "" ele apaga as ocorrencias
+m.strip() faz o trim, tendo tambem o m.lstrip() e m.rstrip(), podendo ser passado o parametro do elemento a ser removido
+m.isalnum() > verifica se nao esta vazio e preenchido com letras e numeros
+m.isalpha() > verifica se só possui letras
+m.isdigit() ou m.isnumeric() > verifica se é numerico, isdigit verificando de 0 a 9 e isnumeric verificando outros numeros em unicode
+m.isupper() ou m.islower()
+m.isspace() retorna True se tem somente espaços ou tabulações ou quebras de linhas ou retornos de carro
+m.isprintable() > verifica se todos os caracteres podem ser impressos na tela
+
+
+
 
