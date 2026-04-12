@@ -100,6 +100,14 @@ m.isdigit() ou m.isnumeric() > verifica se é numerico, isdigit verificando de 0
 m.isupper() ou m.islower()
 m.isspace() retorna True se tem somente espaços ou tabulações ou quebras de linhas ou retornos de carro
 m.isprintable() > verifica se todos os caracteres podem ser impressos na tela
+"{0} {1] {2}".format("-", "x")
+"X{0:<10}X".format("123") >> 'X123      X'
+"X{0:^10}X".format("123") >> 'X   123   X'
+"X{o:.^}X".format("123") >> 'X...123...X'
+{0:10,}.format(7532) >> '     7,532'
+{:b}.format(5678) >> '1011000101110'
+
+
 
 
 
