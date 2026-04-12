@@ -21,6 +21,9 @@ while True:
         y = int(player1-(x*3)-1)
         # print(f"y = {y}")
         tab[x][y] = "X"
+        for n in range(3):
+            print("-|---|----|----|-\n",tab[2-n])
+        print("-|---|----|----|-\n")
         break
 
     if player1 == 0:
