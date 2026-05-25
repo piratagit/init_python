@@ -7,3 +7,5 @@ Em uma fila, a inserção é sempre no fim e a inclusão sempre no inicioi FIFO 
 Em uma pilha a inserção é no final e o elemento retirado é sempre o ultimo LIFO last in first out
 
 Um dicionario é parecido com uma lista, mas tendo chave:valor
+
+Uma função deve resolver apenas um problema

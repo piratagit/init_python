@@ -107,6 +107,9 @@ m.isprintable() > verifica se todos os caracteres podem ser impressos na tela
 {0:10,}.format(7532) >> '     7,532'
 {:b}.format(5678) >> '1011000101110'
 
+=== funções
+
+def define uma função
 
 
 
