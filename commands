@@ -111,6 +111,27 @@ m.isprintable() > verifica se todos os caracteres podem ser impressos na tela
 
 def define uma função
 
+=== exceções
+
+try:
+	blabla
+except ValueError:
+	print("error")
+finally:
+	print("vai de qlqr jeito")	
+
+=== modulos
+
+import arquivo >> importa as funções de um arquivo para serem utilizadas como arquivo.function()
+from arquivo import function >> para usar a função ser o nome do arquivo antes, como function()
+
+=== aleatoriedade
+
+random.randint(1, 10) >> gera numeros de 1 a 10
+random.random() >> valores de ponto flutuante de 0 a 1
+random.uniform(5, 15) >> gera ponto flutuante de 5 a 15
+random.sample(range(1, 100), 6) >> pega um numero de elementos de uma lista
+
 
 
 

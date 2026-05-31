@@ -9,3 +9,9 @@ Em uma pilha a inserção é no final e o elemento retirado é sempre o ultimo L
 Um dicionario é parecido com uma lista, mas tendo chave:valor
 
 Uma função deve resolver apenas um problema
+
+funçõies lambda são funçoes simples que podemos escrever em uma linha
+
+exceções podem ser tratadas com try except, raise e finally
+
+modulos são arquivos .py, que podem ser importados com import
