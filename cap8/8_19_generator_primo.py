@@ -2,6 +2,7 @@ def primos(maximo):
     primos = [2]
     num = 2
     while True:
+        yield num
         if num > maximo:
             print(primos)
             break
@@ -15,4 +16,7 @@ def primos(maximo):
                 if num % n == 0:
                     break
 
-primos(15)
+for p in primos(15):
+    print(p)
+
+# print(primos(15))
