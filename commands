@@ -138,14 +138,27 @@ pares = [x for x in range(10) if x % 2 == 0]
 
 === generators
 
-def generator de numeros():
+def generator_numeros():
 	x = 0
 	while True:
-		yeld x
+		yield x
 		x += 1
 
+g = generator_numeros()
 
+g
 
+next(g)
 
+for i in g:
+	print(i)
 
+=== map
+
+list(map(lambda x: x/2), [1, 2, 3])
+
+zip > combina 2 listad
+
+zpi([1, 2, 3],[4, 5, 6])
+>> [(1, 4),(2, 5),(3, 6)]
 

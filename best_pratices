@@ -19,3 +19,8 @@ modulos são arquivos .py, que podem ser importados com import
 list comprehensions são funções de uma linha como lambda para preencher uma lista com um for por exemplo, usando uma condição se necessario
 
 geradores podem ser usados no lugar de listam quando vai se interagir com cada elemento mas não preciso guardar eles
+
+map > aplica uma função em cada elemento de uma lista, retornando outra lista como resultado
+
+reduce > semelhante ao map, recebe a função e uma lista, mas roda a função para
+cada 2 elementos dessa lista
